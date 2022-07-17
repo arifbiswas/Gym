@@ -64,7 +64,7 @@ body {
 }
 
 .baner-discription {
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .baner-text {
@@ -86,7 +86,6 @@ body {
 
 .baner-btn {
     padding: 20px 40px;
-    margin: 0px;
     background-color: red;
     color: white;
     font-size: 18px;
@@ -130,6 +129,6 @@ body {
 
 }
 
-.gym-icon{
+.gym-icon {
     width: 40px;
 }
