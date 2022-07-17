@@ -91,6 +91,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .baner-btn:hover {
@@ -131,4 +132,82 @@ body {
 
 .gym-icon {
     width: 40px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: black;
+    color: white;
+}
+
+.about-left {
+    width: 700px;
+
+}
+
+.about-right {
+    width: 700px;
+
+}
+
+.workout-image img {
+    width: 550px;
+    height: 750px;
+    transform: skewY(-15deg);
+
+}
+
+.workout-image {
+    display: flex;
+    margin: 50px;
+}
+
+.about-right {
+    margin-top: 90px;
+}
+
+.about-discription {
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.about-title {
+    font-size: 50px;
+}
+
+.btn-text {
+    text-decoration: none;
+    color: white;
+}
+
+.workout-container{
+    width: 600px;
+    height: 200px;
+     background-image: url(images/shape/Group_33094_1.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 10px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-top:50px ;
+     margin-bottom:50px ;
+}
+.workout-btn button {
+    padding: 12px 25px;
+    font-size:18px;
+    border-radius: 5px ;
+    transition: all 0.2s;
+
+
+}
+.workout-btn button:hover{
+    background-color: blue;
+    color: white;
+
 }
