@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+
+}
+
+.manu-list {
+    display: flex;
+    padding: 50px;
+    margin: 15px;
+
+
+}
+
+.manu-list li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 15px;
+    border-style: ;
+    transition: all 0.2s;
+
+}
+
+.heading-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.heading-logo h1 {
+    font-size: 60px;
+
+
+
+
+}
+
+.manu-list li:hover {
+    color: red;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.baner-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.baner-discription {
+    margin-left: 60px;
+}
+
+.baner-text {
+    color: red;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.title1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px
+}
+
+.text {
+    font-size: 26px;
+
+}
+
+.baner-btn {
+    padding: 20px 40px;
+    margin: 0px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.baner-btn:hover {
+    background-color: rgb(0, 17, 255);
+}
+
+.title2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-two {
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 5px 5px 20px gray;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    margin: 20px;
+}
+
+.card1:hover {
+    border: 1px solid rgb(255, 0, 0);
+    margin-top: -20px;
+
+}
+
+.gym-icon{
+    width: 40px;
+}
